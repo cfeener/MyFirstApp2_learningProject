@@ -2,6 +2,7 @@ package com.example.myfirstapp
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
 
@@ -9,4 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    /** Called when the user taps the Send button */
+    fun sendMessage(view: View) {
+        // Do something in response to button
+    }
+
 }
